@@ -138,3 +138,5 @@ db/data/tradeData.js
 db/data/exchangeData.js
 db/data/closingMarketcapData.js
 db/data/volume24MarketcapData.js
+
+.DS_Store
