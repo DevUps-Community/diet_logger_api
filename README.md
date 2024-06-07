@@ -13,6 +13,25 @@ Build a basic diet tracking system similar to MyFitnessPal where users can log t
 4. **Reports:**
    - Generate daily, weekly, and monthly reports of food intake.
 
+## Description
+This project aims to build a diet-tracking system similar to MyFitnessPal. The primary objective is to allow users to log their daily food intake, track calories and macronutrients, and view reports of their diet over time.
+
+**Aspects to Consider:**
+
+- **Schema Design:**
+  - Think about how you will structure your database tables to store user information, food entries, and daily reports.
+  - Consider how to efficiently link food entries to users and aggregate data for daily, weekly, and monthly reports.
+
+- **React App Design:**
+  - Plan the component structure for handling user registration, login, food diary entry, and report viewing.
+  - Ensure state management is handled effectively, perhaps using a state management library like Redux.
+
+- **Best Practices:**
+  - Implement authentication and authorisation securely.
+  - Ensure input validation and error handling.
+  - Consider how to make the app responsive and user-friendly.
+  - Plan for scalability if you intend to add more features later.
+
 ## Technical Requirements
 - **Backend:** Node.js with Express
 - **Database:** Supabase
@@ -21,7 +40,7 @@ Build a basic diet tracking system similar to MyFitnessPal where users can log t
 
 ## Steps to Build
 1. **Set up the project:**
-   - Initialize a new Node.js project.
+   - Initialise a new Node.js project.
    - Set up Supabase and connect it to the project.
 2. **Authentication:**
    - Implement user registration and login with Supabase Auth.
